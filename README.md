@@ -1,10 +1,5 @@
 # vukand.github.io
-this be sad
-
-
-
-
-this be very sad indeed
+A GitHub Pages... page.
 
 
 
