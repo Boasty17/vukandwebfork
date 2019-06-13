@@ -1,3 +1,19 @@
 body {
     background-color: rgb(30,34,39);
 }
+
+h1 {
+    color: white
+}
+
+p {
+    color: white
+}
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
