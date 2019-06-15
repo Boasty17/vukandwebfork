@@ -1,5 +1,5 @@
 body {
-    background-color: #084FDD;
+    background-color: darkgrey;
 }
 
 h1 {
@@ -20,4 +20,9 @@ a:hover {
 
 a:visited {
     color: rgb(60, 255, 0);
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
 }
