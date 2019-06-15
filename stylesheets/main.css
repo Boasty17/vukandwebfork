@@ -1,5 +1,5 @@
 body {
-    background-color: #084FDD;
+    background-color: darkgray;
 }
 
 h1 {
@@ -20,4 +20,8 @@ a:hover {
 
 a:visited {
     color: rgb(60, 255, 0);
+}
+
+.center {
+    text-align: center;
 }
