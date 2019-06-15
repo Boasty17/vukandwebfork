@@ -17,3 +17,7 @@ a:link {
 a:hover {
     color: hotpink;
 }
+
+a:visited {
+    color: rgb(60, 255, 0);
+}
