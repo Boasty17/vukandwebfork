@@ -1,5 +1,7 @@
 body {
-    background-color: darkgray;
+    background: linear-gradient(rgb(128, 128, 128), rgb(211, 211, 211));
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 h1 {
@@ -22,6 +24,52 @@ a:visited {
     color: rgb(60, 255, 0);
 }
 
-.center {
+#header {
+    overflow: hidden;
+    background-color: rgb(70, 70, 70);
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+#header a {
+    float: left;
+    color: black;
     text-align: center;
+    padding: 10px;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 4px;
+}
+
+#header a:hover {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+#header a.active {
+    background-color: rgb(152, 203, 253);
+    color: black;
+}
+
+.header-left {
+    float: left;
+}
+
+#container {
+    background: linear-gradient(rgb(135, 206, 250), rgb(173, 216, 230));
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-bottom: 50%;
+    position: relative;
+    border-radius: 2%;
+}
+
+#footer {
+    background-color: rgb(70, 70, 70);
+    margin: 0 auto;
+    padding: 50px;
 }
