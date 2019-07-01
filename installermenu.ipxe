@@ -1,0 +1,23 @@
+#!ipxe
+menu Selection
+item tinycore (tinycore)
+item android (android)
+item voidlinux (void linux)
+item archlinux (arch linux)
+item ubuntu (ubuntu trash)
+choose os && goto ${os}
+
+:tinycore
+sanboot http://distro.ibiblio.org/tinycorelinux/10.x/x86/release/Core-10.1.iso
+
+:android
+sanboot https://downloads.sourceforge.net/project/android-x86/Testing/android-x86-6.0_20160129.iso?r=https://sourceforge.net/projects/android-x86/files/Testing/android-x86-6.0_20160129.iso/download?use_mirror=pilotfiber&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fandroid-x86%2Ffiles%2Flatest%2Fdownload&ts=1561954161
+
+:voidlinux
+sanboot http://mirrors.dotsrc.org/voidlinux/live/current/void-live-x86_64-20181111-lxde.iso
+
+:archlinux
+sanboot http://mirror.aarnet.edu.au/pub/archlinux/iso/2019.06.01/archlinux-2019.06.01-x86_64.iso
+
+:ubuntu
+sanboot http://releases.ubuntu.com/18.04.2/ubuntu-18.04.2-desktop-amd64.iso
