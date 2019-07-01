@@ -5,6 +5,9 @@ item android (android)
 item voidlinux (void linux)
 item archlinux (arch linux)
 item ubuntu (ubuntu trash)
+item mint (minty fresh)
+item reactos (have fun with that)
+item mx (mx linux aka actually good)
 choose os && goto ${os}
 
 :tinycore
@@ -21,3 +24,12 @@ sanboot http://mirror.aarnet.edu.au/pub/archlinux/iso/2019.06.01/archlinux-2019.
 
 :ubuntu
 sanboot http://releases.ubuntu.com/18.04.2/ubuntu-18.04.2-desktop-amd64.iso
+
+:mint
+sanboot http://mirrors.kernel.org/linuxmint/stable/19.1/linuxmint-19.1-cinnamon-64bit.iso
+
+:reactos
+sanboot https://downloads.sourceforge.net/project/reactos/ReactOS/0.4.11/ReactOS-0.4.11-iso.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Freactos%2Ffiles%2FReactOS%2F0.4.11%2FReactOS-0.4.11-iso.zip%2Fdownload&ts=1562009548
+
+:mx
+sanboot http://mirror.math.princeton.edu/pub/mxlinux-iso/MX/Final/MX-18.3_x64.iso
