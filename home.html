@@ -10,9 +10,10 @@
     <link type="text/css" rel="stylesheet" href="stylesheets/main.css" />
     <!-- CSS end -->
     <script>
-      function downloaded(){
+      function downloaded(downloadedItem){
         
-       alert("Press OK to download.") 
+       alert("Press OK to download.")
+       console.log(downloadedItem);
 
       }
 
@@ -87,30 +88,29 @@
       <p id="date"></p>
       
       <h2>Tools</h2>
-      <a href="https://github.com/sysprogs/WinCDEmu/releases/download/v4.1/WinCDEmu-4.1.exe" style="text-decoration: none;" onClick="downloaded()"><button>WinCDEmu</button></a>
+      <a href="https://github.com/sysprogs/WinCDEmu/releases/download/v4.1/WinCDEmu-4.1.exe" style="text-decoration: none;" onClick="downloaded('WinCDEmu')"><button>WinCDEmu</button></a>
       <a href="https://www.majorgeeks.com/mg/getmirror/easybcd,1.html" style="text-decoration: none;" onClick="redirect()"><button>EasyBCD</button></a><br><br>
       
       <h2>Wandoos</h2>
-      <a href="https://github.com/sysprogs/WinCDEmu/releases/download/v4.1/WinCDEmu-4.1.exe" style="text-decoration: none;" onClick="downloaded()"><button>WinCDEmu</button></a>
-      <a href="https://mega.nz/#!C4UkRQCC!VWiPmtaYqf-TUqLN26c9coMPuK7OQ-FL1_wGPYVu-O8" style="text-decoration: none;" onClick="downloaded()"><button>Vista x86</button></a>
+      <a href="https://mega.nz/#!C4UkRQCC!VWiPmtaYqf-TUqLN26c9coMPuK7OQ-FL1_wGPYVu-O8" style="text-decoration: none;" onClick="downloaded('Vista x86')"><button>Vista x86</button></a>
       <a href="https://aero8.redeyecomputing.com/dl/" style="text-decoration: none;" onClick="redirect()"><button>Aero 8 Iso</button></a>
       <a href="https://mega.nz/#!juwxTAQQ!YjymQxV_DeB581OJHB6S-teLoBHLJyzZ6z-Iw_xPFIs" style="text-decoration: none;" onClick="redirect()"><button>Windows 7 x64 Iso</button></a>
       <a href="https://mega.nz/#!70FXXSwA!oshgiaaG-J-TkQ0tjBSEs_yZ3x-oERx_ENwdITXKSjo" style="text-decoration: none;" onClick="redirect()"><button>Windows 7 x86 Iso</button></a><br><br>
       <h2>UNetbootin</h2>
 
-      <a href="https://github.com/unetbootin/unetbootin/releases/download/661/unetbootin-windows-661.exe" style="text-decoration: none;" onClick="downloaded()"><button>Windows</button></a>
+      <a href="https://github.com/unetbootin/unetbootin/releases/download/661/unetbootin-windows-661.exe" style="text-decoration: none;" onClick="downloaded('UNetbootin')"><button>Windows</button></a>
       <a href="https://unetbootin.github.io/linux_download.html" style="text-decoration: none;" onClick="redirect()"><button>Linux</button></a>
-      <a href="https://github.com/unetbootin/unetbootin/releases/download/661/unetbootin-mac-661.dmg" style="text-decoration: none;" onClick="downloaded()"><button>Mac</button></a><br><br>
+      <a href="https://github.com/unetbootin/unetbootin/releases/download/661/unetbootin-mac-661.dmg" style="text-decoration: none;" onClick="downloaded('UNetbootin MAC')"><button>Mac</button></a><br><br>
 
       <h3>Linux distros</h3>
       <a href="https://voidlinux.org/download/" style="text-decoration: none;" onClick="redirect()"><button>Void Linux</button></a>
-      <a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.9.0-amd64-netinst.iso" style="text-decoration: none;" onClick="downloaded()"><button>Debian 64-bit</button></a>
+      <a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.9.0-amd64-netinst.iso" style="text-decoration: none;" onClick="downloaded('Debian 64-bit')"><button>Debian 64-bit</button></a>
       <a href="https://ubuntu.com/download/desktop/thank-you?country=GB&version=19.04&architecture=amd64" style="text-decoration: none;" onClick="redirect()"><button>Ubuntu 19.04 (GB)</button></a><br><br>   
       <h2>VirtualBox</h2>
 
-      <a href="https://download.virtualbox.org/virtualbox/6.0.8/VirtualBox-6.0.8-130520-Win.exe" style="text-decoration: none;" onClick="downloaded()"><button>Windows</button></a>
+      <a href="https://download.virtualbox.org/virtualbox/6.0.8/VirtualBox-6.0.8-130520-Win.exe" style="text-decoration: none;" onClick="downloaded('VirtualBox')"><button>Windows</button></a>
       <a href="https://www.virtualbox.org/wiki/Linux_Downloads" style="text-decoration: none;" onClick="redirect()"><button>Linux</button></a>
-      <a href="https://download.virtualbox.org/virtualbox/6.0.8/VirtualBox-6.0.8-130520-OSX.dmg" style="text-decoration: none;" onClick="downloaded()"><button>Mac</button></a><br><br>      
+      <a href="https://download.virtualbox.org/virtualbox/6.0.8/VirtualBox-6.0.8-130520-OSX.dmg" style="text-decoration: none;" onClick="downloaded('VirtualBox MAC')"><button>Mac</button></a><br><br>      
 
       <a href="https://www.codefactor.io/repository/github/vukand/vukand.github.io"><img src="https://www.codefactor.io/repository/github/vukand/vukand.github.io/badge" alt="CodeFactor" /></a>
     </div>
