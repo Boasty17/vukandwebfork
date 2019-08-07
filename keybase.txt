@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/vukand12
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vukand.github.io
+  * I am vukand12 (https://keybase.io/vukand12) on keybase.
+  * I have a public key ASCAtU9pPkFtZ_c7Oam0AmYqpieT0hoGCOkMcCy79vrMAAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012080b54f693e416d67f73b39a9b402662aa62793d21a0608e90c702cbbf6facc000a",
+      "host": "keybase.io",
+      "kid": "012080b54f693e416d67f73b39a9b402662aa62793d21a0608e90c702cbbf6facc000a",
+      "uid": "d3974fc3888eb944f1f0dbecb2f9b219",
+      "username": "vukand12"
+    },
+    "merkle_root": {
+      "ctime": 1565187237,
+      "hash": "e15b322a4bed28fbb34ab0007cf5a9a16c530e2d21774584d3fade1e164f29c6e57f48f5c17bc432d878ead67b0040cf2540ecd66a4f5982f7de1b0eb6911cf7",
+      "hash_meta": "745a81c960ef92225787994eae438a8430929b37116609f95970bf6e11d9059d",
+      "seqno": 5962500
+    },
+    "service": {
+      "entropy": "3Dx6YQ363ZlTUW8SieI9YV5Z",
+      "hostname": "vukand.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1565187246,
+  "expire_in": 504576000,
+  "prev": "96d724f801b82665f7185e6838632eaf479079f212761110b08ef588fa284ecb",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggLVPaT5BbWf3OzmptAJmKqYnk9IaBgjpDHAsu/b6zAAKp3BheWxvYWTESpcCC8Qgltck+AG4JmX3GF5oOGMur0eQefISdhEQsI71iPooTsvEIAyQp1PvP683J7S27AOExyty+5yIZRB08888tyVvg9QRAgHCo3NpZ8RA6QDJjTpwTBZHMiIIztLW2F7Fl+40Ybd410TEkeJNN1/rIzoc3JcorVkgJg7z4w/3wHwmp0UKWIHoBj6GRoYCBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINoQxYEPI2W5CY1ZCETL4x/lb+TuuEG23/gKztZWtXZio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vukand12
+
+==================================================================
