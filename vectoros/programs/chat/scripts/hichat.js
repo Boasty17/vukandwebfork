@@ -53,15 +53,15 @@ HiChat.prototype = {
                 that.socket.emit('login', nickName);
             } else {
                 document.getElementById('nicknameInput').focus();
-            };
+            }
         }, false);
         document.getElementById('nicknameInput').addEventListener('keyup', function(e) {
             if (e.keyCode == 13) {
                 var nickName = document.getElementById('nicknameInput').value;
                 if (nickName.trim().length != 0) {
                     that.socket.emit('login', nickName);
-                };
-            };
+                }
+            }
         }, false);
         document.getElementById('sendBtn').addEventListener('click', function() {
             var messageInput = document.getElementById('messageInput'),
@@ -73,7 +73,7 @@ HiChat.prototype = {
                 that.socket.emit('postMsg', msg, color);
                 that._displayNewMsg('me', msg, color);
                 return;
-            };
+            }
         }, false);
         document.getElementById('messageInput').addEventListener('keyup', function(e) {
             var messageInput = document.getElementById('messageInput'),
@@ -83,7 +83,7 @@ HiChat.prototype = {
                 messageInput.value = '';
                 that.socket.emit('postMsg', msg, color);
                 that._displayNewMsg('me', msg, color);
-            };
+            }
         }, false);
         document.getElementById('clearBtn').addEventListener('click', function() {
             document.getElementById('historyMsg').innerHTML = '';
@@ -97,14 +97,14 @@ HiChat.prototype = {
                     that._displayNewMsg('system', '!your browser doesn\'t support fileReader', 'red');
                     this.value = '';
                     return;
-                };
+                }
                 reader.onload = function(e) {
                     this.value = '';
                     that.socket.emit('img', e.target.result, color);
                     that._displayImage('me', e.target.result, color);
                 };
                 reader.readAsDataURL(file);
-            };
+            }
         }, false);
         this._initialEmoji();
         document.getElementById('emoji').addEventListener('click', function(e) {
@@ -116,7 +116,7 @@ HiChat.prototype = {
             var emojiwrapper = document.getElementById('emojiWrapper');
             if (e.target != emojiwrapper) {
                 emojiwrapper.style.display = 'none';
-            };
+            }
         });
         document.getElementById('emojiWrapper').addEventListener('click', function(e) {
             var target = e.target;
@@ -124,7 +124,7 @@ HiChat.prototype = {
                 var messageInput = document.getElementById('messageInput');
                 messageInput.focus();
                 messageInput.value = messageInput.value + '[emoji:' + target.title + ']';
-            };
+            }
         }, false);
     },
     _initialEmoji: function() {
@@ -135,7 +135,7 @@ HiChat.prototype = {
             emojiItem.src = '../content/emoji/' + i + '.gif';
             emojiItem.title = i;
             docFragment.appendChild(emojiItem);
-        };
+        }
         emojiContainer.appendChild(docFragment);
     },
     _displayNewMsg: function(user, msg, color) {
@@ -169,8 +169,8 @@ HiChat.prototype = {
                 result = result.replace(match[0], '[X]');
             } else {
                 result = result.replace(match[0], '<img class="emoji" src="../content/emoji/' + emojiIndex + '.gif" />');//todo:fix this in chrome it will cause a new request for the image
-            };
-        };
+            }
+        }
         return result;
     }
 };
