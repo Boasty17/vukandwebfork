@@ -1,9 +1,3 @@
-      function downloaded(downloadedItem){
-        console.log("Downloaded " + downloadedItem)
-      }
-      function redirect(){
-      }
-        
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
      *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
