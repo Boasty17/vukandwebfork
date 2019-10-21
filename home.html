@@ -38,15 +38,76 @@
         </button>
     </div>
 
-    <div class="h-100 p-4">
-        <p class="h1">Vukand website</p>
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            ...
-        </p>
+     <script src="scripty.js"></script>
+    <script>
+      function downloaded(downloadedItem){
+        console.log("Downloaded " + downloadedItem)
+      }
+      function redirect(){
+      }
+    </script>
+<noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+</noscript>
+  </head>
+  <body>
+    <!-- meta begin -->
+    <meta property="og:title" content="💽" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vukand.github.io" />
+    <meta property="og:description" content="Vector's github.io page - hosted with GitHub Pages 💽" />
+    <!-- meta end -->
+    
+    <div id="header">
+      <div class="header-left">
+        <a class="active" href="index.html">Home</a>
+        <a href="https://vectoros.glitch.me">VectorOS</a>
+        <a href="about.html">About</a>
+       
+      </div>
     </div>
-</div>
+
+    <div id="container">
+      <h1>hello</h1>
+      <a href="installers/tc.exe" style="text-decoration: none;" onClick=""><button>Install TinyCore</button></a><br><br>
+      <marquee scrollamount="15" direction="left"><a href="https://is.gd/collabmega" style="text-decoration: none;" onClick=""><button style="background-color:#DA262E;color:white">(M) MEGA</button></a></marquee>
+      <!-- <marquee scrollamount="15" direction="right"><a href="https://discord.gg/PK36jYQ" style="text-decoration: none;" onClick=""><button style="background-color:#7289da;color:black"><img src="assets/discord.gif" alt="Discord logo"> Discord</button></a></marquee> -->
+      
+      <h2>Tools</h2>
+      <a href="https://github.com/sysprogs/WinCDEmu/releases/download/v4.1/WinCDEmu-4.1.exe" style="text-decoration: none;" onClick="downloaded('WinCDEmu')"><button>WinCDEmu</button></a>
+      <a href="https://www.majorgeeks.com/mg/getmirror/easybcd,1.html" style="text-decoration: none;" onClick="redirect()"><button>EasyBCD</button></a><br><br>
+      
+      <h2>Wandoos</h2>
+      <a href="https://mega.nz/#!C4UkRQCC!VWiPmtaYqf-TUqLN26c9coMPuK7OQ-FL1_wGPYVu-O8" style="text-decoration: none;" onClick="downloaded('Vista x86')"><button>Vista x86</button></a>
+      <a href="https://aero8.redeyecomputing.com/dl/" style="text-decoration: none;" onClick="redirect()"><button>Aero 8 Iso</button></a>
+      <a href="https://mega.nz/#!juwxTAQQ!YjymQxV_DeB581OJHB6S-teLoBHLJyzZ6z-Iw_xPFIs" style="text-decoration: none;" onClick="redirect()"><button>Windows 7 x64 Iso</button></a>
+      <a href="https://mega.nz/#!70FXXSwA!oshgiaaG-J-TkQ0tjBSEs_yZ3x-oERx_ENwdITXKSjo" style="text-decoration: none;" onClick="redirect()"><button>Windows 7 x86 Iso</button></a>
+      <a href="https://escargot.log1p.xyz/downloads#step2" style="text-decoration: none;" onClick="redirect()"><button>Patched MSN Messenger</button></a><br><br>
+      <h2>UNetbootin</h2>
+
+      <a href="https://github.com/unetbootin/unetbootin/releases/download/661/unetbootin-windows-661.exe" style="text-decoration: none;" onClick="downloaded('UNetbootin')"><button>Windows</button></a>
+      <a href="https://unetbootin.github.io/linux_download.html" style="text-decoration: none;" onClick="redirect()"><button>Linux</button></a>
+      <a href="https://github.com/unetbootin/unetbootin/releases/download/661/unetbootin-mac-661.dmg" style="text-decoration: none;" onClick="downloaded('UNetbootin MAC')"><button>Mac</button></a><br><br>
+
+      <h3>Linux distros</h3>
+      <a href="https://voidlinux.org/download/" style="text-decoration: none;" onClick="redirect()"><button>Void Linux</button></a>
+      <a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.0.0-amd64-netinst.iso" style="text-decoration: none;" onClick="downloaded('Debian 64-bit')"><button>Debian 64-bit</button></a>
+      <a href="https://ubuntu.com/download/desktop/thank-you?country=GB&version=19.04&architecture=amd64" style="text-decoration: none;" onClick="redirect()"><button>Ubuntu 19.04 (GB)</button></a><br><br>   
+      <h2>VirtualBox</h2>
+      <p><img src="assets/note.png" alt="A note"></img> By downloading, you agree to the terms and conditions of the respective license.</p>
+      <a href="https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-Win.exe" style="text-decoration: none;" onClick="downloaded('VirtualBox')"><button>Windows</button></a>
+      <a href="https://www.virtualbox.org/wiki/Linux_Downloads" style="text-decoration: none;" onClick="redirect()"><button>Linux</button></a>
+      <a href="https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-Win.exe" style="text-decoration: none;" onClick="downloaded('VirtualBox MAC')"><button>Mac</button></a><br><br>      
+
+      <a href="https://www.codefactor.io/repository/github/vukand/vukand.github.io"><img src="https://www.codefactor.io/repository/github/vukand/vukand.github.io/badge" alt="CodeFactor" /></a>
+    </div>
+    
+    <div id="footer"></div>
+    
+    <div id="disqus_thread"></div>
 
     <!-- Metro 4 -->
     <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
